@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Website</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: #0036fbb0;
+      color: white;
+      padding: 1em;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      background-color: #0024f1;
+    }
+
+    nav a {
+      color: white;
+      padding: 1em;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      background-color: #2808c8;
+    }
+
+    .container {
+      padding: 2em;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1em;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+    .split-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 2em;
+}
+
+.split-section img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  flex: 1;
+  margin-right: 2em;
+}
+
+.text-content {
+  flex: 2;
+  min-width: 250px;
+}
+
+@media (max-width: 500px) {
+  .split-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .split-section img {
+    margin: 0 0 1em 0;
+  }
+}
+
+
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Website</h1>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <div class="container">
+    <p>This is a simple and responsive layout. Resize your browser window to see it adapt!</p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit facere quibusdam, voluptates molestias nihil nemo maxime, eaque earum perspiciatis adipisci quaerat a corrupti? Blanditiis quidem molestiae corporis, laborum ipsa odit!
+    Magni quasi sequi labore! Quasi sint quaerat modi quia laboriosam dolorem ut enim facilis assumenda eligendi nemo id, est repudiandae. Nisi veniam nemo esse a at sed dolore vitae laudantium!
+    Ut a ducimus qui, natus excepturi dolores adipisci quo, expedita modi laboriosam, ullam voluptatum obcaecati totam? Alias voluptatem doloremque delectus rerum, debitis consequuntur suscipit, perferendis voluptatibus soluta quas magni velit.
+    Ab id incidunt doloremque, adipisci libero culpa explicabo quae pariatur omnis doloribus cum odio rerum reiciendis officia labore, facilis blanditiis et quam esse. Nesciunt asperiores suscipit obcaecati aut, quisquam nostrum!
+    Nam, veritatis. Ipsam modi veritatis tenetur cum. Laboriosam iure excepturi, praesentium quisquam officia fugit qui officiis adipisci sit accusantium natus, enim esse at delectus nam dolor nemo voluptas! Voluptates, odit.
+    Provident delectus accusantium saepe dicta ab vitae fugiat tenetur facilis veritatis odio, distinctio debitis a, minus magni ducimus laboriosam libero totam, ullam nisi at nemo deleniti reiciendis sapiente. Neque, voluptate?
+    Autem quidem sequi atque suscipit repellendus itaque expedita dolor. Quaerat omnis perspiciatis molestiae, at quae officiis, optio assumenda nulla, laboriosam soluta ipsum asperiores? Eaque dolorem quae quisquam distinctio exercitationem quod.
+    Doloremque odio totam minima quo mollitia amet iure! Similique, atque aspernatur enim nam exercitationem eligendi beatae expedita doloribus est ea iusto soluta veritatis qui vel eius libero totam nemo quia?
+    Quasi, nesciunt ipsam? Placeat nam qui repellat nisi deleniti optio assumenda soluta eaque accusantium pariatur facere autem, nihil veritatis quos voluptates, ea ducimus. Laboriosam corporis explicabo rem ducimus officia cum.
+    Enim quidem maiores aperiam, repellendus expedita veniam atque hic magni recusandae, sint in temporibus esse consequatur. Officiis facilis praesentium odit saepe modi! Minima quibusdam ullam sint rem vero ex assumenda!
+  </div>
+
+
+  <div class="split-section">
+  <img src="a.png" alt="Descriptive Alt Text" />
+  <div class="text-content">
+    <h2>Your Heading</h2>
+    <p>This is a sample paragraph that appears on the right side of the image. You can replace it with your own content to explain whatever you like!</p>
+  </div>
+</div>
+
+
+  <footer>
+    <p>&copy; 2025 Puneet's Website &hearts; </p>
+  </footer>
+  
+</body>
+</html>

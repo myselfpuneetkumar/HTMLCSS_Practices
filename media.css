@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0%;
+}
+#contain{
+    display: flex;
+    
+    width:100%
+   
+   
+   
+   
+   
+}
+
+#car{
+    float: left;
+ 
+    
+}
+#car:hover{
+    /* height: 1000px; */
+    border:2px solid black;
+    transition: all;
+    transition-duration: 2s;
+    border-radius: 50px;
+  
+}
+#car:active{
+    border: 2px solid blue;
+    border-radius: 50%;
+    height: 50%;
+    width:50%;
+
+}
+#rightDiv{
+   
+    height:500px;
+    width:50%;
+   float: right;
+    /* background-color: #46f800; */
+   
+    
+}
+@media screen and (max-width: 500px){
+    #contain{
+        float:none;
+        background-color: blue;
+    }
+    #car{
+        float:none;
+        width: 100%;
+    }
+
+}

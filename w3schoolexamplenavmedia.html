@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #0c00f8;
+  justify-content: center;
+  <!-- display: flex; -->
+  justify-content: space-evenly;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: capitalize;
+ 
+ 
+
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #fff200f1;
+  color: black;
+}
+
+
+/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+   
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>Responsive navigation menu</h2>
+
+<div class="topnav">
+  <a href="#">home</a>
+  <a href="#">Media</a>
+  <a href="#">contact</a>
+  <a href="#">About</a>
+</div>
+
+
+
+</body>
+</html>
+
+

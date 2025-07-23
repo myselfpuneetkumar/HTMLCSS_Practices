@@ -1,0 +1,23 @@
+#container{
+    width:100vw;
+    height:100vh;
+    border: 2px solid black;
+    background-image: linear-gradient(rgb(0, 140, 255,0.5),rgb(204, 0, 170,0.9));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#center{
+
+    height: 50%;
+    width:50%;
+    color: darkgoldenrod;
+    background-color: blue;
+    display: inline;
+    justify-content: center;
+    text-overflow: clip;
+    text-size-adjust: 100px;
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+}
